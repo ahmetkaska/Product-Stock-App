@@ -1,0 +1,2 @@
+# Product-Stock-App
+Urunlerin barkod numarsinin, adinin, kayit tarihinin, adedinin ve fiyat bilgilerini saklayan bir Urun Stok Uygulamasi yapildi. Python openCV kullanarak barkod okuyucu yapildi. Okutulan barkoda tekabul eden urun Sqlite kutuphanesi ile olusturulmus veritabanimizda yoksa Tkinter kutuphanesi kullanilarak yapilan urun kayit arayuzu aciliyor ve kayit yapiliyor. Aksi durumda urunun veritabaninda kayitli oldugu mesaji veriliyor.
