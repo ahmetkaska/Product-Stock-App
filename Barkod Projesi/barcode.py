@@ -45,8 +45,7 @@ while camera == True :
         """ 
         Okutulan barkodlar utf-8 formati ile birlikte barcode1 degiskenine atanir. 
         Ve barkod barkod listesinde olup olmama durumu kontrol edildi.
-         Eger varsa urunun stok adedi arttirilacak.
-          Eger yoksa yeni kayit acilacak.
+        Eger yoksa yeni kayit acilacak.
         """
         barcode1 = code.data.decode('utf-8')
         if barcode1 not in barkodList:
